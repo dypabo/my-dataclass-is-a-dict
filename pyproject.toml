@@ -1,3 +1,20 @@
+[project]
+name = "my-dataclass-is-a-dict"
+version = "0.1"
+description = "Give a dictionary interface to a dataclass"
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+
 [tool.black]
 line-length = 120
 target-version = ['py37', 'py38', 'py39']
+
+
