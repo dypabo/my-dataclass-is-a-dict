@@ -1,0 +1,4 @@
+echo "PACKAGE"
+PYTHONPATH=. python -m pylint --rcfile .pylintrc ./my_dataclass_is_a_dict
+echo "TESTS"
+PYTHONPATH=. python -m pylint --rcfile ./tests/.pylintrc ./tests
