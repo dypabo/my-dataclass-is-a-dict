@@ -1,13 +1,13 @@
-# my_dataclass_is_a_dict
+# my-dataclass-is-a-dict
 
-my_dataclass_is_a_dict is a library to force a dataclass to act like a dictionary
+my-dataclass-is-a-dict is a library to force a dataclass to act like a dictionary
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install my_dataclass_is_a_dict.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install my-dataclass-is-a-dict.
 
 ```bash
-pip install my_dataclass_is_a_dict
+pip install my-dataclass-is-a-dict
 ```
 
 ## Usage
