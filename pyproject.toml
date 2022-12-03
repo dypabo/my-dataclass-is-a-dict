@@ -1,6 +1,6 @@
 [project]
 name = "my-dataclass-is-a-dict"
-version = "0.1"
+version = "0.2"
 description = "Give a dictionary interface to a dataclass"
 license = {"file" = "LICENSE"}
 readme = "README.md"
@@ -10,6 +10,16 @@ homepage = "https://github.com/dypabo/my-dataclass-is-a-dict"
 documentation = "https://github.com/dypabo/my-dataclass-is-a-dict"
 repository = "https://github.com/dypabo/my-dataclass-is-a-dict"
 
+
+[project.optional-dependencies]
+dev = [
+  "black>=22.10.0",
+  "flake8>=6.0.0",
+  "mypy>=0.991",
+  "pylint>=2.15.7",
+  "pytest>=7.2.0",
+  "twine>=4.0.2",
+]
 
 [build-system]
 requires = ["setuptools"]
